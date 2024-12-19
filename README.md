@@ -45,7 +45,7 @@ http://127.0.0.1:5000/
 Routes disponibles :
 
 
-GET /: Affiche une page d'accueil avec un lien vers les données CSV. \
+GET /: Affiche une page d'accueil avec un lien vers les données CSV. 
 
-GET /csv: Renvoie les données du fichier avocado.csv au format JSON. \
+GET /csv: Renvoie les données du fichier avocado.csv au format JSON. 
 

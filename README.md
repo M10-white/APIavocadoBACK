@@ -19,13 +19,13 @@ Assurez-vous que les outils suivants sont installés sur votre système :
 ## Installation
 
 1. Clonez le projet :
-   ```bash
-   git clone https://github.com/M10-white/APIavocado.git
-   ```
-   
-   ```bash
-   cd src/back
-   ```
+```bash
+git clone https://github.com/M10-white/APIavocado.git
+```
+
+```bash
+cd src/back
+```
    
 Placez le fichier avocado.csv à la racine du répertoire APIavocadoBACK.
 
@@ -44,10 +44,8 @@ http://127.0.0.1:5000/
 
 Routes disponibles :
 
-```bash
-GET /: Affiche une page d'accueil avec un lien vers les données CSV.
-```
 
-```bash
-GET /csv: Renvoie les données du fichier avocado.csv au format JSON.
-```
+GET /: Affiche une page d'accueil avec un lien vers les données CSV. \
+
+GET /csv: Renvoie les données du fichier avocado.csv au format JSON. \
+

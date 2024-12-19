@@ -18,7 +18,7 @@ Assurez-vous que les outils suivants sont installés sur votre système :
 
 ## Installation
 
-1. Clonez le projet :
+### Clonez le projet :
 ```bash
 git clone https://github.com/M10-white/APIavocado.git
 ```
@@ -29,7 +29,7 @@ cd src/back
    
 Placez le fichier avocado.csv à la racine du répertoire APIavocadoBACK.
 
-Utilisation
+## Utilisation
 Démarrez le serveur Flask :
 
 ```bash
@@ -42,7 +42,7 @@ Par défaut, l'API est accessible à l'adresse suivante :
 http://127.0.0.1:5000/
 ```
 
-Routes disponibles :
+## Routes disponibles :
 
 
 GET /: Affiche une page d'accueil avec un lien vers les données CSV. 

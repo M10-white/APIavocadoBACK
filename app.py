@@ -10,7 +10,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Charger le modèle préalablement sauvegardé
-with open('src/avocado_price_model.pkl', 'rb') as model_file:
+with open('../avocado_price_model.pkl', 'rb') as model_file:
     model_pipeline = pickle.load(model_file)
 
 @app.route('/')

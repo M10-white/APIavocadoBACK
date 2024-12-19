@@ -21,6 +21,9 @@ Assurez-vous que les outils suivants sont installés sur votre système :
 1. Clonez le projet :
    ```bash
    git clone https://github.com/<votre-utilisateur-github>/APIavocado.git
+   ```
+   
+   ```bash
    cd APIavocado/APIavocadoBACK
    ```
    
@@ -28,11 +31,12 @@ Installez les dépendances Python :
 
 ```bash
 pip install -r requirements.txt
-Placez le fichier avocado.csv à la racine du répertoire APIavocadoBACK.
 ```
+Placez le fichier avocado.csv à la racine du répertoire APIavocadoBACK.
 
 Utilisation
 Démarrez le serveur Flask :
+
 ```bash
 python app.py
 ```
@@ -45,5 +49,10 @@ http://127.0.0.1:5000/
 
 Routes disponibles :
 
+```bash
 GET /: Affiche une page d'accueil avec un lien vers les données CSV.
+```
+
+```bash
 GET /csv: Renvoie les données du fichier avocado.csv au format JSON.
+```

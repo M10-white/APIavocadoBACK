@@ -24,7 +24,7 @@ Assurez-vous que les outils suivants sont installés sur votre système :
    ```
    
    ```bash
-   cd APIavocado/APIavocadoBACK
+   cd src/back
    ```
    
 Placez le fichier avocado.csv à la racine du répertoire APIavocadoBACK.

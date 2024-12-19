@@ -20,7 +20,7 @@ Assurez-vous que les outils suivants sont installés sur votre système :
 
 1. Clonez le projet :
    ```bash
-   git clone https://github.com/<votre-utilisateur-github>/APIavocado.git
+   git clone https://github.com/M10-white/APIavocado.git
    ```
    
    ```bash

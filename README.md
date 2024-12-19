@@ -27,11 +27,6 @@ Assurez-vous que les outils suivants sont installés sur votre système :
    cd APIavocado/APIavocadoBACK
    ```
    
-Installez les dépendances Python :
-
-```bash
-pip install -r requirements.txt
-```
 Placez le fichier avocado.csv à la racine du répertoire APIavocadoBACK.
 
 Utilisation

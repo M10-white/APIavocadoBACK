@@ -2,7 +2,7 @@
 
 ## Description
 
-Cette partie du projet contient l'API Flask utilisée pour prédire le prix des avocats et fournir les données nécessaires au front-end. Le back-end gère également une route pour afficher les données d'un fichier CSV au format JSON.
+Cette partie du projet contient l'API utilisée pour prédire le prix des avocats et fournir les données nécessaires au front-end. Le back-end gère également une route pour afficher les données d'un fichier CSV au format JSON.
 
 ---
 

@@ -113,7 +113,7 @@ def predict():
     
 # Route pour afficher les données du CSV en JSON
 @app.route('/csv_data')
-def display_csv_json():
+def display_csv_json(): 
     # Charger le fichier CSV
     df = pd.read_csv('src/back/avocado.csv') 
     
